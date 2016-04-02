@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	
+	<logger name="net.codeoftheday.template" level="DEBUG" />
+	
+	<springProfile name="prod">
+		<logger name="net.codeoftheday.template" level="INFO" />
+	</springProfile>
+	
+</configuration>

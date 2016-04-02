@@ -1,0 +1,45 @@
+######################
+# Node & Bower
+######################
+node_modules
+src/main/webapp/bower_components
+
+######################
+# Maven
+######################
+target
+
+######################
+# Windows
+######################
+Thumbs.db
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+######################
+# IDE (Eclipse)
+######################
+.settings
+.project
+.classpath
+
+######################
+# Cache / Temp-Files
+######################
+**/.tmp/**
+*.cache
+*.*~
+*~
+.merge_file*
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar

@@ -1,0 +1,34 @@
+{
+    "name": "app",
+    "appPath": "src/main/webapp/",
+    "testPath": "src/test/webapp/",
+    "dependencies": {
+        "angular": "~1.5.2",
+        "angular-aria": "~1.5.2",
+        "angular-bootstrap": "~1.2.5",
+        "angular-resource": "~1.5.2",
+        "angular-sanitize": "~1.2.2",
+        "angular-ui-router": "~0.2.18",
+        "bootstrap": "~3.3.6",
+        "jquery": "~2.2.2",
+        "modernizr": "~3.3.1"
+    },
+    "overrides": {
+        "angular": {
+            "dependencies": {
+                "jquery": "~2.2.2"
+            }
+        },
+        "bootstrap": {
+            "main": [
+                "dist/js/bootstrap.js",
+                "dist/css/bootstrap.css",
+                "less/bootstrap.less"
+            ]
+        }
+    },
+    "resolutions": {
+        "angular": "~1.5.2",
+        "jquery": "~2.2.2"
+    }
+}

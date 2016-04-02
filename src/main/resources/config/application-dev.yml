@@ -1,0 +1,6 @@
+ spring:
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: false # Gulp + BrowserSync is used for livereload

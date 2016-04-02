@@ -1,0 +1,24 @@
+* text=auto
+
+*.less          text
+*.css           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.properties    text
+*.sh            text
+*.txt           text
+*.xml           text
+
+*.png           binary
+*.jpg           binary
+*.jar           binary
+*.pdf           binary
+*.eot           binary
+*.ttf           binary
+*.gzip          binary
+*.gz            binary
+*.ai            binary
+*.eps           binary
+*.swf           binary
