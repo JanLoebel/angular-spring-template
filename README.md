@@ -8,7 +8,7 @@ This is a basic example how to combine [Spring Boot](https://github.com/spring-p
 _Prerequisites:_ You must have installed [npm](https://github.com/npm/npm) and [Bower](https://github.com/bower/bower).
 
 1. Clone git repository: ``git clone ...``
-1. Execute Maven build: ``./mvnw clean package``
+1. Execute Maven build: ``./mvnw clean package -Pprod``
 1. Download gulp build dependencies: ``npm install``
 1. Download UI dependencies: ``bower install``
 
